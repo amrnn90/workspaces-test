@@ -1,5 +1,9 @@
 {
   "private": true,
+  "scripts": {
+    "build-one": "cd one && yarn run build",
+    "build-two": "cd two && yarn run build"
+  },
   "workspaces": [
     "one",
     "two"
